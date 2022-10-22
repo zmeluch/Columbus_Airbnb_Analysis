@@ -10,7 +10,25 @@ Housings characteristics from the U.S. Census Bureau will be overlaid on the Air
 
 These proposed data sets are described in more details below.
 
+### AirBnB Data
+
+The listing of AirBnB properties in the City of Columbus was retrieved from the Inside AirBnB website: http://insideairbnb.com/.  The goal of this project is to provide data to the public to understand the potential impact of AirBnB properties on communities.
+
+Data for AirBnB listings are included for several cities across the world.  This information is updated regularly.  The data for Columbus was most recently updated on September 21, 2022.  
+
+Specifically, the listings data will be used for this project.  This is a .csv file that contains the following fields:
+- Listing ID Number and Name
+- Host ID Number and Name
+- Neighborhood Name and Group
+- Latitude and Longitude Coordinates of the Property
+- Room Type (entire house, shared room, private room, etc.)
+- Price
+- Minimum Night Requirement
+- Number of Reviews
+- Date of Latest Review
+- Reviews Per Month
+- Number of Listings by Host (Calculated Field)
+- Number of Night Available in the Past Year
+- License Number
 
 
-
-'
