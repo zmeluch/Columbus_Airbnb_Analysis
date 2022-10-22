@@ -39,7 +39,28 @@ The five-year surveys would be more beneficial to use for this project because t
 
 To show differences in housing and income levels over a period of time, the 2020 five year ACS, which represents data from 2016-2020, and the 2015 five year ACS, which includes data from 2011-2015, have been selected for analysis.
 
+The data colleced from the U.S. Census was obtained through the Bureau's CEDSCI website (https://data.census.gov/cedsci/).
 
+#### Housing Characteristics
+
+The ACS contains various data related to housing characteristics, including housing occupancy, number of units in each structure, structure age, number of rooms, value, and costs.  Not all of this informaton is necessary to conduct the proposed analysis.  At this time, the suggested fields to capture are:
+- Total Housing Units
+- Number of Occupied Housing Units
+- Median Number of Rooms
+- Number of Owner-Occupied Units
+- Median Housing Value
+- Median Monthly Costs
+- Median Gross Rent
+
+#### Income Characteristics
+
+The ACS also collects information related to respondents' incomes in inflation-adjusted dollars.  Two useful sets of data are the median household and median family incomes.  Median household income represents the total income of all individuals from the same address while median family income is restricted to individuals in households who are related by blood, marriage or adoption.
+
+## Connecting the AirBnB and Census Data Files
+
+The geographical feature included in the AirBnB file are the latitude and longitude coordinates while this feature is the ZCTA for the Census files.  An intermediate step is needed to convert the geographical coordinates to a zip code, which then can be matched to the ZCTAs in the Census files.  Once this step is completed, the 2020 and 2015 housing characteristics from the Census can be matched to the properties in the AirBnB file.
+
+This conversion can be done programmatically and the specific steps for doing so will be explored as the project advances.
 
 
 
