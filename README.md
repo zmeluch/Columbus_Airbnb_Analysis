@@ -31,6 +31,8 @@ Specifically, the listings data will be used for this project.  This is a .csv f
 - Number of Night Available in the Past Year
 - License Number
 
+The website maintains a data dictionary to describe the information collected:  https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/edit#gid=1322284596
+
 ### U.S. Census Bureau Housing and Income Data
 
 The United States Census Bureau conducts periodic surveys to collect information on social, economic, demographic, and housing characteristics of the the American population; these are calld the American Community Surveys (ACS) (https://www.census.gov/programs-surveys/acs).  The Census Bureau publishes this data as a one-year or five-year survey (https://www.census.gov/programs-surveys/acs/guidance/estimates.html).
