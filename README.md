@@ -9,3 +9,4 @@
 
 ### Weekly Roles
 
+![Team_Roles](https://user-images.githubusercontent.com/103155045/197901655-1796e92c-9449-4fc5-af5a-fd576e0591de.png)
