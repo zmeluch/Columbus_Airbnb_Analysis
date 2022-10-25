@@ -60,9 +60,8 @@ The ACS also collects information related to respondents' incomes in inflation-a
 
 The geographical feature included in the AirBnB file are the latitude and longitude coordinates while this feature is the ZCTA for the Census files.  An intermediate step is needed to convert the geographical coordinates to a zip code, which then can be matched to the ZCTAs in the Census files.  Once this step is completed, the 2020 and 2015 housing characteristics from the Census can be matched to the properties in the AirBnB file.
 
-The zip codes can be obtained from the latitude and longitude coordinates using the GeoPy Python package (https://geopy.readthedocs.io/en/stable/).  The code to accomplish this is found here: https://github.com/zmeluch/group_2_project/blob/Circle/Data/Get_Zip.ipynb.
+The zip codes can be obtained from the latitude and longitude coordinates using the GeoPy Python package (https://geopy.readthedocs.io/en/stable/).  The code to accomplish this is found here: https://github.com/zmeluch/group_2_project/blob/Circle/Data/Get_Zip.ipynb.  The .csv with the results is here:  https://github.com/zmeluch/group_2_project/blob/Circle/Data/Columbus_Listings_with_Zip.csv.
 
+The results can then be loaded in PGAdmin to create a table.  Cleansed versions of the 2015 and 2020 Census housing and income can also be imported to PG Admin.  To bring together the data, a query is generated in which inner joins are made between the listing and Census tables where the zip code field in the listings table is set equal to the ZCTA fields in each Census table.  The results of that query are then downloaded to a file than can be used for visualizations and to conduct machine learning.  The full results are here:  https://github.com/zmeluch/group_2_project/blob/main/Full_Listings.CSV
 
-
-
-
+The Census Data files currently require cleaning to be in a compatible format for querying.  Preliminary cleaning steps were done in Excel (incuding transposing rows and columns and combining title rows) but this group will explore whether cleaning can be done more programmitically.
