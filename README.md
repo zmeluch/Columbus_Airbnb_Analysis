@@ -7,3 +7,5 @@
 - Agreed outside meeting times are after 7pm on weekdays and weekends.
 - For help reach out to teams members, if in need of more help reach out to teachers.
 
+### Weekly Roles
+
