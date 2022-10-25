@@ -60,7 +60,7 @@ The ACS also collects information related to respondents' incomes in inflation-a
 
 The geographical feature included in the AirBnB file are the latitude and longitude coordinates while this feature is the ZCTA for the Census files.  An intermediate step is needed to convert the geographical coordinates to a zip code, which then can be matched to the ZCTAs in the Census files.  Once this step is completed, the 2020 and 2015 housing characteristics from the Census can be matched to the properties in the AirBnB file.
 
-This conversion can be done programmatically and the specific steps for doing so will be explored as the project advances.
+The zip codes can be obtained from the latitude and longitude coordinates using the GeoPy Python package (https://geopy.readthedocs.io/en/stable/).  The code to accomplish this is found here: https://github.com/zmeluch/group_2_project/blob/Circle/Data/Get_Zip.ipynb.
 
 
 
