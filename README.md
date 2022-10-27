@@ -66,6 +66,9 @@ The zip codes can be obtained from the latitude and longitude coordinates using 
 
 The results can then be loaded in PostgresSQL to create a table.  Cleansed versions of the 2015 and 2020 Census housing and income can also be imported to PostgresSQL.  To bring together the data, a query is generated in which inner joins are made between the listing and Census tables where the zip code field in the listings table is set equal to the ZCTA fields in each Census table.  The results of that query are then downloaded to a file than can be used for visualizations and to conduct machine learning.  The full results are here:  https://github.com/zmeluch/group_2_project/blob/main/Full_Listings.CSV
 
-The Census Data files require cleaning to be in a compatible format for querying.  Preliminary cleaning steps were done in Excel (incuding transposing rows and columns and combining title rows).
+The Census Data files require cleaning to be in a compatible format for querying.  Preliminary cleaning steps were done in Excel (incuding transposing rows and columns and combining title rows).  This cleansed data is found here:  https://github.com/zmeluch/group_2_project/blob/Circle/Data/2020_Census_Housing_Data.csv, 
+https://github.com/zmeluch/group_2_project/blob/Circle/Data/2020_Census_Income_Data.csv,
+https://github.com/zmeluch/group_2_project/blob/Circle/Data/2015_Housing_Clean.csv,
+https://github.com/zmeluch/group_2_project/blob/Circle/Data/2015_Income_Clean.csv
 
 A draft database modeling diagram has been created to show the relationships between the tables. https://github.com/zmeluch/group_2_project/blob/Circle/Draft_DMD.png.  The "table" used to connect latitude and longitude coodinates was accomplished using code in Python but was kept to show the intermediate step that had to be taken so that the AirBnB and Census data could "talk" to each other.  
