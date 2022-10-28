@@ -1,6 +1,22 @@
-# Circle Role
 
-## Proposed Data Sets
+# Airbnb Housing Analysis
+
+## Square Role
+
+### Communication Protocols
+- Communicate openly and honestly.
+- Use slack channel (team 2).
+- Schedule outside meeting times during group breakout room in class.
+- Agreed outside meeting times are after 7pm on weekdays and weekends.
+- For help reach out to teams members, if in need of more help reach out to teachers.
+
+#### Weekly Roles
+
+![Team_Roles](https://user-images.githubusercontent.com/103155045/197901655-1796e92c-9449-4fc5-af5a-fd576e0591de.png)
+
+## Circle Role
+
+### Proposed Data Sets
 
 The proposed goal of this project is to determine whether AirBnB properties are clustered in areas where home properties have increased.  This could indicate that these properties could be crowding out the availability of homes for individuals to purchase and thus, could be making homes less affordable.
 
@@ -10,7 +26,7 @@ Housings characteristics from the U.S. Census Bureau will be overlaid on the Air
 
 These proposed data sets are described in more details below.
 
-### AirBnB Data
+#### AirBnB Data
 
 The listing of AirBnB properties in the City of Columbus was retrieved from the Inside AirBnB website: http://insideairbnb.com/.  The goal of this project is to provide data to the public to understand the potential impact of AirBnB properties on communities.
 
@@ -33,7 +49,7 @@ Specifically, the listings data will be used for this project.  This is a .csv f
 
 The website maintains a data dictionary to describe the information collected:  https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/edit#gid=1322284596
 
-### U.S. Census Bureau Housing and Income Data
+#### U.S. Census Bureau Housing and Income Data
 
 The United States Census Bureau conducts periodic surveys to collect information on social, economic, demographic, and housing characteristics of the the American population; these are calld the American Community Surveys (ACS) (https://www.census.gov/programs-surveys/acs).  The Census Bureau publishes this data as a one-year or five-year survey (https://www.census.gov/programs-surveys/acs/guidance/estimates.html).
 
@@ -72,3 +88,4 @@ https://github.com/zmeluch/group_2_project/blob/Circle/Data/2015_Housing_Clean.c
 https://github.com/zmeluch/group_2_project/blob/Circle/Data/2015_Income_Clean.csv
 
 A draft database modeling diagram has been created to show the relationships between the tables. https://github.com/zmeluch/group_2_project/blob/Circle/Draft_DMD.png.  The "table" used to connect latitude and longitude coodinates was accomplished using code in Python but was kept to show the intermediate step that had to be taken so that the AirBnB and Census data could "talk" to each other.  
+>
