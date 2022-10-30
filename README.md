@@ -130,3 +130,16 @@ A draft database modeling diagram has been created to show the relationships bet
 >
 
 
+___________________________________________
+
+# Start of Second Week X Role
+
+A draft presentation in Google Slides was put together describing the following:
+* Selected topic
+* Reason topic was selected
+* Description of the source of data
+* Questions the team hopes to answer with the data
+* Description of the data exploration phase of the project
+* Description of the analysis phase of the project
+
+https://docs.google.com/presentation/d/1_Heg4fxYKyluFyEqWFfrh6BT2N0vfcCipprr6YMgje8/edit?usp=sharing
