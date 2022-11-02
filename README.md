@@ -142,4 +142,9 @@ A draft presentation in Google Slides was put together describing the following:
 * Description of the data exploration phase of the project
 * Description of the analysis phase of the project
 
-https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Week%202%20Presentation.pdf
+https://docs.google.com/presentation/d/1rO2i72UsggOnBbOaXtPJ2cRrcxjElsqL4Z8WRPnc8LU/edit?usp=sharing
+
+## Connection from Python to PostGresSQL Using SQLAlchemy
+
+The dataframe generated into the Get_Zip Jupyter notebook file was connected to PostGresSQL with the following code:
+https://github.com/zmeluch/group_2_project/blob/main/Data/SQL_Connection.ipynb
