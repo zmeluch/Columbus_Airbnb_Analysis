@@ -142,4 +142,4 @@ A draft presentation in Google Slides was put together describing the following:
 * Description of the data exploration phase of the project
 * Description of the analysis phase of the project
 
-https://docs.google.com/presentation/d/1_Heg4fxYKyluFyEqWFfrh6BT2N0vfcCipprr6YMgje8/edit?usp=sharing
+https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Week%202%20Presentation.pdf
