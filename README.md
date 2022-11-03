@@ -129,4 +129,9 @@ https://github.com/zmeluch/group_2_project/blob/Circle/Data/2015_Income_Clean.cs
 A draft database modeling diagram has been created to show the relationships between the tables. https://github.com/zmeluch/group_2_project/blob/Circle/Draft_DMD.png.  The "table" used to connect latitude and longitude coodinates was accomplished using code in Python but was kept to show the intermediate step that had to be taken so that the AirBnB and Census data could "talk" to each other.  
 >
 
+## Circle Role Week 2
+
+Visualizations in Tableau
+
+https://public.tableau.com/app/profile/zach4381/viz/ColumbusAirBnBAnalysis/Story1?publish=yes
 
