@@ -137,7 +137,8 @@ A draft database modeling diagram has been created to show the relationships bet
 
 ![Median_Income_2020v2015_by_zip](https://user-images.githubusercontent.com/103155045/199861531-5f8c70dd-328c-4422-abe7-cc1c3c242728.png)
 
-![Median_Household_Income_by_Neighborhood](https://user-images.githubusercontent.com/103155045/199861551-da893c53-a248-47ac-bb6e-f8ee47ce7ebc.png)
+![Median_Household_Income_by_Neighborhood](https://user-images.githubusercontent.com/103155045/199862357-66626160-148a-46a9-b978-eda5ca318095.png)
+
 
 
 Visualizations in Tableau
