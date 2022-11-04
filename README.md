@@ -131,6 +131,15 @@ A draft database modeling diagram has been created to show the relationships bet
 
 ## Circle Role Week 2
 
+![Preliminary_Dashboard](https://user-images.githubusercontent.com/103155045/199861479-71ccd51a-31b0-4bcb-bd59-1a1b4fd19482.png)
+
+![Listings_by_Neighborhood](https://user-images.githubusercontent.com/103155045/199861511-64a7f69a-ff72-4ade-ae36-25c461260375.png)
+
+![Median_Income_2020v2015_by_zip](https://user-images.githubusercontent.com/103155045/199861531-5f8c70dd-328c-4422-abe7-cc1c3c242728.png)
+
+![Median_Household_Income_by_Neighborhood](https://user-images.githubusercontent.com/103155045/199861551-da893c53-a248-47ac-bb6e-f8ee47ce7ebc.png)
+
+
 Visualizations in Tableau
 
 https://public.tableau.com/app/profile/zach4381/viz/ColumbusAirBnBAnalysis/Story1?publish=yes
