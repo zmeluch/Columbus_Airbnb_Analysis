@@ -1,6 +1,31 @@
 
 # Airbnb Housing Analysis
 
+### Outline
+
+Title: AirBnBs in Columbus 
+
+Topic: Understand if and how Airbnb properties are impacting the housing market in Columbus
+
+Reasons for Selecting Topic
+
+Data Sources
+
+Questions to Answer
+
+Data Exploration
+
+Data Analysis - Joining Data
+
+Data Analysis - Machine Learning
+
+Data Analysis-Visualizations
+
+Applications Used
+
+Next Steps / Conclusion
+
+
 ## X Role
 
 Team Members: Zach, Kelley, Michael, Autumn
