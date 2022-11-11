@@ -1,6 +1,29 @@
 
 # Airbnb Housing Analysis
 
+### Outline
+
+Title: AirBnBs in Columbus 
+
+Topic: Understand if and how Airbnb properties are impacting the housing market in Columbus
+
+Reasons for Selecting Topic
+
+Data Sources
+
+Questions to Answer
+
+Data Exploration
+
+Data Analysis - Joining Data
+
+Data Analysis - Machine Learning
+
+Data Analysis-Visualizations
+
+Applications Used
+
+Next Steps / Conclusion
 
 
 Team Members: Zach, Kelley, Michael, Autumn
@@ -149,3 +172,22 @@ https://github.com/zmeluch/group_2_project/blob/main/Data/SQL_Connection.ipynb
 When looking at the original code (Get_Zip.ipynb) file, it was discovered that try-except blocks were no longer correctly.  The reason that this was originally added is because some of the latitude and longitude coordinates were not matching to zip codes in the GeoPy module.  The results were researched and the specific instances in which zip codes were not matching were found by seeing at what point the results had errors.  The original listings file from AirBnB was opened to find these particular properties.  The latitude and longitude coordinates were entered in Google Maps to obtain an address.  That address was then entered back into Google Maps to obtain new, albeit close, coordinates.  These coordinates were then entered into the listings .csv file.  That file was saved and the code was run again until there were no errors.  There were three or four cases in which the coordinates could not be matched to the zip code.  The revised listings document to clean the coordinates is here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Columbus_Listings.csv.  The revised code to match the zip codes and coordinates is here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Columbus_Listings.csv.  This revised file also added a connection between the Python-based code and PostGresSQL.  The results of the revised code are here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Columbus_Listings_with_Zip.csv
 
 With the connection, the listing document with the zip did not have to be manually loaded into PostgresSQL.  The other tables were re-entered and the query that matched the listings to the Census data was redone.  The revised SQL code is here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Tables.  Finally, the results of query are stored here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Full_Listings.csv.
+____________________________________________________________________________________________________________
+
+#Circle - Third Week
+
+The presentation has been renamed and is housed here:  https://docs.google.com/presentation/d/1E3SVTMFQzZ3htjidnXUpBjcGkBse8QqXvKJqRpLcnI0/edit#slide=id.g187237edaa3_0_5
+
+A slide was added to discuss the types of technology and tools used for the project.  Technologies are listed below along with a general description of their use:
+* Python Packages
+    * Pandas - used to load the initial Inside AirBnB data as a dataframe.  Also used to clean the data, find values, and export files.
+    * GeoPy - facilitated the geocoding of loctions using third-party sites.
+    * Plotly Express and hvPlot - produced plots for the maching learning portion.
+    * Plotly Figure Factory - generated the dendrogram for the machine learning piece.
+    * scikit-learn - produced the models for the machine learning portion, including clustering algorithms.
+    * SQLAlchemy - created a connection between Python code in Jupyter Notebook and PostgreSQL.
+* Nominatim - used OpenStreetMap data to find locations on Earth through reverse geocoding (in this case, using coordinates to find zip codes).
+* Jupyter Notebook - housed the Python-based code.
+* PostgreSQL - housed the SQL queries to join the Inside AirBnB and census data.
+
+A conclusion slide was also added to wrap up the presentation and provide potential next steps and further items to explore to supplement the analysis.
