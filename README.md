@@ -1,6 +1,31 @@
 
 # Airbnb Housing Analysis
 
+### Outline
+
+Title: AirBnBs in Columbus 
+
+Topic: Understand if and how Airbnb properties are impacting the housing market in Columbus
+
+Reasons for Selecting Topic
+
+Data Sources
+
+Questions to Answer
+
+Data Exploration
+
+Data Analysis - Joining Data
+
+Data Analysis - Machine Learning
+
+Data Analysis-Visualizations
+
+Applications Used
+
+Next Steps / Conclusion
+
+
 ## X Role
 
 Team Members: Zach, Kelley, Michael, Autumn
@@ -22,18 +47,6 @@ We are still defining the questions we are hoping to answer but preliminary list
     4.	Did median family income increase due to Airbnb?
 
 
-## Square Role
-
-### Communication Protocols
-- Communicate openly and honestly.
-- Use slack channel (team 2).
-- Schedule outside meeting times during group breakout room in class.
-- Agreed outside meeting times are after 7pm on weekdays and weekends.
-- For help reach out to teams members, if in need of more help reach out to teachers.
-
-#### Weekly Roles
-
-![Team_Roles](https://user-images.githubusercontent.com/103155045/197901655-1796e92c-9449-4fc5-af5a-fd576e0591de.png)
 
 ## Triangle Role
 
