@@ -1,7 +1,30 @@
 
 # Airbnb Housing Analysis
 
-## X Role
+### Outline
+
+Title: AirBnBs in Columbus 
+
+Topic: Understand if and how Airbnb properties are impacting the housing market in Columbus
+
+Reasons for Selecting Topic
+
+Data Sources
+
+Questions to Answer
+
+Data Exploration
+
+Data Analysis - Joining Data
+
+Data Analysis - Machine Learning
+
+Data Analysis-Visualizations
+
+Applications Used
+
+Next Steps / Conclusion
+
 
 Team Members: Zach, Kelley, Michael, Autumn
 
@@ -22,20 +45,7 @@ We are still defining the questions we are hoping to answer but preliminary list
     4.	Did median family income increase due to Airbnb?
 
 
-## Square Role
 
-### Communication Protocols
-- Communicate openly and honestly.
-- Use slack channel (team 2).
-- Schedule outside meeting times during group breakout room in class.
-- Agreed outside meeting times are after 7pm on weekdays and weekends.
-- For help reach out to teams members, if in need of more help reach out to teachers.
-
-#### Weekly Roles
-
-![Team_Roles](https://user-images.githubusercontent.com/103155045/197901655-1796e92c-9449-4fc5-af5a-fd576e0591de.png)
-
-## Triangle Role
 
 ### Background
 The purpose of our analysis and Machine Learning model is to find how the density of AirBnbs in a given area affect the pricing of single family houses in that area. The dataset used contains the airbnb listings in Columbus, Ohio in 2015 as well as 2020, along with various measures of the cities' housing economy such as the median home value and median household income in Columbus for both 2015 and 2020.
@@ -55,7 +65,7 @@ Next, a basic scatterplot displaying the median household value in Columbus in 2
 A three dimensional model was then created to display the median household value in both 2015 and 2020 along with the number of occupied Airbnb units in year 2020, again arranged into three classes.
 ![Screen Shot 2022-10-27 at 6 20 32 PM](https://user-images.githubusercontent.com/108902185/198408966-1215dd82-f581-4b72-a359-81cb4f4d438f.png)
 
-## Circle Role
+
 
 ### Proposed Data Sets
 
@@ -131,25 +141,18 @@ https://github.com/zmeluch/group_2_project/blob/Circle/Data/2015_Income_Clean.cs
 A draft database modeling diagram has been created to show the relationships between the tables. https://github.com/zmeluch/group_2_project/blob/Circle/Draft_DMD.png.  The "table" used to connect latitude and longitude coodinates was accomplished using code in Python but was kept to show the intermediate step that had to be taken so that the AirBnB and Census data could "talk" to each other.  
 >
 
-## Circle Role Week 2
+## Dashboard
 
-![Preliminary_Dashboard](https://user-images.githubusercontent.com/103155045/199861479-71ccd51a-31b0-4bcb-bd59-1a1b4fd19482.png)
-
-![Listings_by_Neighborhood](https://user-images.githubusercontent.com/103155045/199861511-64a7f69a-ff72-4ade-ae36-25c461260375.png)
-
-![Median_Income_2020v2015_by_zip](https://user-images.githubusercontent.com/103155045/199861531-5f8c70dd-328c-4422-abe7-cc1c3c242728.png)
-
-![Median_Household_Income_by_Neighborhood](https://user-images.githubusercontent.com/103155045/199862357-66626160-148a-46a9-b978-eda5ca318095.png)
+![Dashboard-2](https://user-images.githubusercontent.com/103155045/201246161-3752ecd8-9056-4a92-a36b-4701f6dfd82a.png)
 
 
 
-Visualizations in Tableau
+Link to Dashboard
 
 https://public.tableau.com/app/profile/zach4381/viz/ColumbusAirBnBAnalysis/Story1?publish=yes
 
 ___________________________________________
 
-# Start of Second Week X Role
 
 A draft presentation in Google Slides was put together describing the following:
 * Selected topic
@@ -171,6 +174,7 @@ https://github.com/zmeluch/group_2_project/blob/main/Data/SQL_Connection.ipynb
 When looking at the original code (Get_Zip.ipynb) file, it was discovered that try-except blocks were no longer correctly.  The reason that this was originally added is because some of the latitude and longitude coordinates were not matching to zip codes in the GeoPy module.  The results were researched and the specific instances in which zip codes were not matching were found by seeing at what point the results had errors.  The original listings file from AirBnB was opened to find these particular properties.  The latitude and longitude coordinates were entered in Google Maps to obtain an address.  That address was then entered back into Google Maps to obtain new, albeit close, coordinates.  These coordinates were then entered into the listings .csv file.  That file was saved and the code was run again until there were no errors.  There were three or four cases in which the coordinates could not be matched to the zip code.  The revised listings document to clean the coordinates is here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Columbus_Listings.csv.  The revised code to match the zip codes and coordinates is here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Columbus_Listings.csv.  This revised file also added a connection between the Python-based code and PostGresSQL.  The results of the revised code are here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Columbus_Listings_with_Zip.csv
 
 With the connection, the listing document with the zip did not have to be manually loaded into PostgresSQL.  The other tables were re-entered and the query that matched the listings to the Census data was redone.  The revised SQL code is here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Tables.  Finally, the results of query are stored here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Full_Listings.csv.
+<<<<<<< HEAD
 
 ## Week Three - Machine Learning
 After cleaning the dataset and removing unneeded columns, additional columns were added to the dataset to yield further information about the dataset.
@@ -187,3 +191,24 @@ The 3D scatter plot above displays the data based on the median home value in 20
 The clusters which are differentiated by color, seem arrange the data into three clusters that essentially indicate lower, middle, and upper class housing. Except for the fourth cluster shown in blue. This cluster contains homes that would likely be clusted with the lower class housing although because they appreciated so aggressively between 2015 and 2020, often close to doubling in value if not more. It is also apparent that these zipcodes have a much higher concentration of airbnb listings than the average zipcode, especially when compared to homes with similar median value in 2015. 
 
 
+=======
+____________________________________________________________________________________________________________
+
+#Circle - Third Week
+
+The presentation has been renamed and is housed here:  https://docs.google.com/presentation/d/1E3SVTMFQzZ3htjidnXUpBjcGkBse8QqXvKJqRpLcnI0/edit#slide=id.g187237edaa3_0_5
+
+A slide was added to discuss the types of technology and tools used for the project.  Technologies are listed below along with a general description of their use:
+* Python Packages
+    * Pandas - used to load the initial Inside AirBnB data as a dataframe.  Also used to clean the data, find values, and export files.
+    * GeoPy - facilitated the geocoding of loctions using third-party sites.
+    * Plotly Express and hvPlot - produced plots for the maching learning portion.
+    * Plotly Figure Factory - generated the dendrogram for the machine learning piece.
+    * scikit-learn - produced the models for the machine learning portion, including clustering algorithms.
+    * SQLAlchemy - created a connection between Python code in Jupyter Notebook and PostgreSQL.
+* Nominatim - used OpenStreetMap data to find locations on Earth through reverse geocoding (in this case, using coordinates to find zip codes).
+* Jupyter Notebook - housed the Python-based code.
+* PostgreSQL - housed the SQL queries to join the Inside AirBnB and census data.
+
+A conclusion slide was also added to wrap up the presentation and provide potential next steps and further items to explore to supplement the analysis.
+>>>>>>> main
