@@ -44,6 +44,8 @@ The purpose of our analysis and Machine Learning model is to find how the densit
 
 After trimming unneeded columns and converting all objects and strings to floats, the data is ready to be manipulated. 
 
+![Screen Shot 2022-11-10 at 8 02 57 PM](https://user-images.githubusercontent.com/108902185/201247049-44c59216-5a85-4b54-8de7-161def02a08f.png)
+
 ![Screen Shot 2022-10-27 at 6 16 20 PM](https://user-images.githubusercontent.com/108902185/198408536-17a97dda-424a-4955-b397-b0d389c60d4b.png)
 
 Next, a basic scatterplot displaying the median household value in Columbus in 2015 vs 2020 arranged into three classes was created.
@@ -175,4 +177,13 @@ After cleaning the dataset and removing unneeded columns, additional columns wer
 
 ![Screen Shot 2022-11-10 at 8 02 57 PM](https://user-images.githubusercontent.com/108902185/201246478-dd0faf62-fcef-40a2-ac28-514e43aa06ea.png)
 
-Zipcount holds the number of Airbnb listings in a given zipcode. The zipdensity is a zipcode's zipcount divided by the total owner occupied housing in the zipcode in 2020.The rent_difference and income_difference are the 2015 values for rent and income subtracted from the 2020 values respectively.
+Zipcount holds the number of Airbnb listings in a given zipcode. The zipdensity is a zipcode's zipcount divided by the total owner occupied housing in the zipcode in 2020.The rent_difference and income_difference are the 2015 values for rent and income subtracted from the 2020 values respectively. A five_year_diff column was also added to show the 2020 median home value subtracted by the 2015 median home value in a zipcode. 
+
+## 3D Model and Our Findings
+
+![Screen Shot 2022-11-10 at 8 01 00 PM](https://user-images.githubusercontent.com/108902185/201247157-e034cdd8-3238-41f2-aed6-b13b7a11d7e1.png)
+
+The 3D scatter plot above displays the data based on the median home value in 2015 for the zipcodes, the five year home value difference, the density of Airbnb listings in a zipcode. 
+The clusters which are differentiated by color, seem arrange the data into three clusters that essentially indicate lower, middle, and upper class housing. Except for the fourth cluster shown in blue. This cluster contains homes that would likely be clusted with the lower class housing although because they appreciated so aggressively between 2015 and 2020, often close to doubling in value if not more. It is also apparent that these zipcodes have a much higher concentration of airbnb listings than the average zipcode, especially when compared to homes with similar median value in 2015. 
+
+
