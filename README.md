@@ -174,7 +174,7 @@ https://github.com/zmeluch/group_2_project/blob/main/Data/SQL_Connection.ipynb
 When looking at the original code (Get_Zip.ipynb) file, it was discovered that try-except blocks were no longer correctly.  The reason that this was originally added is because some of the latitude and longitude coordinates were not matching to zip codes in the GeoPy module.  The results were researched and the specific instances in which zip codes were not matching were found by seeing at what point the results had errors.  The original listings file from AirBnB was opened to find these particular properties.  The latitude and longitude coordinates were entered in Google Maps to obtain an address.  That address was then entered back into Google Maps to obtain new, albeit close, coordinates.  These coordinates were then entered into the listings .csv file.  That file was saved and the code was run again until there were no errors.  There were three or four cases in which the coordinates could not be matched to the zip code.  The revised listings document to clean the coordinates is here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Columbus_Listings.csv.  The revised code to match the zip codes and coordinates is here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Columbus_Listings.csv.  This revised file also added a connection between the Python-based code and PostGresSQL.  The results of the revised code are here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Columbus_Listings_with_Zip.csv
 
 With the connection, the listing document with the zip did not have to be manually loaded into PostgresSQL.  The other tables were re-entered and the query that matched the listings to the Census data was redone.  The revised SQL code is here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Tables.  Finally, the results of query are stored here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Full_Listings.csv.
-<<<<<<< HEAD
+
 
 ## Week Three - Machine Learning
 After cleaning the dataset and removing unneeded columns, additional columns were added to the dataset to yield further information about the dataset.
@@ -213,4 +213,4 @@ A slide was added to discuss the types of technology and tools used for the proj
 * PostgreSQL - housed the SQL queries to join the Inside AirBnB and census data.
 
 A conclusion slide was also added to wrap up the presentation and provide potential next steps and further items to explore to supplement the analysis.
->>>>>>> main
+
