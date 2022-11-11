@@ -54,6 +54,8 @@ The purpose of our analysis and Machine Learning model is to find how the densit
 
 After trimming unneeded columns and converting all objects and strings to floats, the data is ready to be manipulated. 
 
+![Screen Shot 2022-11-10 at 8 02 57 PM](https://user-images.githubusercontent.com/108902185/201247049-44c59216-5a85-4b54-8de7-161def02a08f.png)
+
 ![Screen Shot 2022-10-27 at 6 16 20 PM](https://user-images.githubusercontent.com/108902185/198408536-17a97dda-424a-4955-b397-b0d389c60d4b.png)
 
 Next, a basic scatterplot displaying the median household value in Columbus in 2015 vs 2020 arranged into three classes was created.
@@ -172,6 +174,24 @@ https://github.com/zmeluch/group_2_project/blob/main/Data/SQL_Connection.ipynb
 When looking at the original code (Get_Zip.ipynb) file, it was discovered that try-except blocks were no longer correctly.  The reason that this was originally added is because some of the latitude and longitude coordinates were not matching to zip codes in the GeoPy module.  The results were researched and the specific instances in which zip codes were not matching were found by seeing at what point the results had errors.  The original listings file from AirBnB was opened to find these particular properties.  The latitude and longitude coordinates were entered in Google Maps to obtain an address.  That address was then entered back into Google Maps to obtain new, albeit close, coordinates.  These coordinates were then entered into the listings .csv file.  That file was saved and the code was run again until there were no errors.  There were three or four cases in which the coordinates could not be matched to the zip code.  The revised listings document to clean the coordinates is here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Columbus_Listings.csv.  The revised code to match the zip codes and coordinates is here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Columbus_Listings.csv.  This revised file also added a connection between the Python-based code and PostGresSQL.  The results of the revised code are here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Columbus_Listings_with_Zip.csv
 
 With the connection, the listing document with the zip did not have to be manually loaded into PostgresSQL.  The other tables were re-entered and the query that matched the listings to the Census data was redone.  The revised SQL code is here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Tables.  Finally, the results of query are stored here:  https://github.com/zmeluch/group_2_project/blob/X---2nd-Week/Data/Revised_Full_Listings.csv.
+<<<<<<< HEAD
+
+## Week Three - Machine Learning
+After cleaning the dataset and removing unneeded columns, additional columns were added to the dataset to yield further information about the dataset.
+
+![Screen Shot 2022-11-10 at 8 02 57 PM](https://user-images.githubusercontent.com/108902185/201246478-dd0faf62-fcef-40a2-ac28-514e43aa06ea.png)
+
+Zipcount holds the number of Airbnb listings in a given zipcode. The zipdensity is a zipcode's zipcount divided by the total owner occupied housing in the zipcode in 2020.The rent_difference and income_difference are the 2015 values for rent and income subtracted from the 2020 values respectively. A five_year_diff column was also added to show the 2020 median home value subtracted by the 2015 median home value in a zipcode. 
+
+## 3D Model and Our Findings
+
+![Screen Shot 2022-11-10 at 8 01 00 PM](https://user-images.githubusercontent.com/108902185/201247157-e034cdd8-3238-41f2-aed6-b13b7a11d7e1.png)
+
+The 3D scatter plot above displays the data based on the median home value in 2015 for the zipcodes, the five year home value difference, the density of Airbnb listings in a zipcode. 
+The clusters which are differentiated by color, seem arrange the data into three clusters that essentially indicate lower, middle, and upper class housing. Except for the fourth cluster shown in blue. This cluster contains homes that would likely be clusted with the lower class housing although because they appreciated so aggressively between 2015 and 2020, often close to doubling in value if not more. It is also apparent that these zipcodes have a much higher concentration of airbnb listings than the average zipcode, especially when compared to homes with similar median value in 2015. 
+
+
+=======
 ____________________________________________________________________________________________________________
 
 #Circle - Third Week
@@ -191,3 +211,4 @@ A slide was added to discuss the types of technology and tools used for the proj
 * PostgreSQL - housed the SQL queries to join the Inside AirBnB and census data.
 
 A conclusion slide was also added to wrap up the presentation and provide potential next steps and further items to explore to supplement the analysis.
+>>>>>>> main
