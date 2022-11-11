@@ -118,7 +118,8 @@ A draft database modeling diagram has been created to show the relationships bet
 
 ## Dashboard
 
-![Preliminary_Dashboard](https://user-images.githubusercontent.com/103155045/199861479-71ccd51a-31b0-4bcb-bd59-1a1b4fd19482.png)
+![Dashboard-2](https://user-images.githubusercontent.com/103155045/201246161-3752ecd8-9056-4a92-a36b-4701f6dfd82a.png)
+
 
 
 Link to Dashboard
