@@ -177,7 +177,7 @@ The presentation has been renamed and is housed here:  https://docs.google.com/p
 
 A slide was added to discuss the types of technology and tools used for the project.  Technologies are listed below along with a general description of their use:
 * Python Packages
-    * Pandas - used to load the initial Inside AirBnB data into as a dataframe.  Also used to clean the data, find values, and export files.
+    * Pandas - used to load the initial Inside AirBnB data as a dataframe.  Also used to clean the data, find values, and export files.
     * GeoPy - facilitated the geocoding of loctions using third-party sites.
     * Plotly Express and hvPlot - produced plots for the maching learning portion.
     * Plotly Figure Factory - generated the dendrogram for the machine learning piece.
@@ -187,6 +187,4 @@ A slide was added to discuss the types of technology and tools used for the proj
 * Jupyter Notebook - housed the Python-based code.
 * PostgreSQL - housed the SQL queries to join the Inside AirBnB and census data.
     
-    geopy makes it easy for Python developers to locate the coordinates of addresses, cities, countries, and landmarks across the globe using third-party ...
-    
-Python was the language used to load the initial data from the AirBnB website and transform it into a dataframe using Pandas.  GeoPy was used to facilitate the geocoding of the latitude and longitude to zip code.  Nominatim is the geocoding software that powers the official OSM site www.openstreetmap.org and houses the geocoding information  .  Plotly Express  and HV Plot were used to produce plots for the machine learning portion.  Plotly Figure Factory was used to create a dendrogram for the machine learning piece.  SQL Alchemy was used to make a connection between python code in Ju
+  
