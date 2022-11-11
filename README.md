@@ -26,8 +26,6 @@ Applications Used
 Next Steps / Conclusion
 
 
-## X Role
-
 Team Members: Zach, Kelley, Michael, Autumn
 
 Topic: How are Airbnb's affecting the housing market and values in the Columbus OH area?
@@ -48,7 +46,6 @@ We are still defining the questions we are hoping to answer but preliminary list
 
 
 
-## Triangle Role
 
 ### Background
 The purpose of our analysis and Machine Learning model is to find how the density of AirBnbs in a given area affect the pricing of single family houses in that area. The dataset used contains the airbnb listings in Columbus, Ohio in 2015 as well as 2020, along with various measures of the cities' housing economy such as the median home value and median household income in Columbus for both 2015 and 2020.
@@ -66,7 +63,7 @@ Next, a basic scatterplot displaying the median household value in Columbus in 2
 A three dimensional model was then created to display the median household value in both 2015 and 2020 along with the number of occupied Airbnb units in year 2020, again arranged into three classes.
 ![Screen Shot 2022-10-27 at 6 20 32 PM](https://user-images.githubusercontent.com/108902185/198408966-1215dd82-f581-4b72-a359-81cb4f4d438f.png)
 
-## Circle Role
+
 
 ### Proposed Data Sets
 
@@ -142,25 +139,18 @@ https://github.com/zmeluch/group_2_project/blob/Circle/Data/2015_Income_Clean.cs
 A draft database modeling diagram has been created to show the relationships between the tables. https://github.com/zmeluch/group_2_project/blob/Circle/Draft_DMD.png.  The "table" used to connect latitude and longitude coodinates was accomplished using code in Python but was kept to show the intermediate step that had to be taken so that the AirBnB and Census data could "talk" to each other.  
 >
 
-## Circle Role Week 2
+## Dashboard
 
-![Preliminary_Dashboard](https://user-images.githubusercontent.com/103155045/199861479-71ccd51a-31b0-4bcb-bd59-1a1b4fd19482.png)
-
-![Listings_by_Neighborhood](https://user-images.githubusercontent.com/103155045/199861511-64a7f69a-ff72-4ade-ae36-25c461260375.png)
-
-![Median_Income_2020v2015_by_zip](https://user-images.githubusercontent.com/103155045/199861531-5f8c70dd-328c-4422-abe7-cc1c3c242728.png)
-
-![Median_Household_Income_by_Neighborhood](https://user-images.githubusercontent.com/103155045/199862357-66626160-148a-46a9-b978-eda5ca318095.png)
+![Dashboard-2](https://user-images.githubusercontent.com/103155045/201246161-3752ecd8-9056-4a92-a36b-4701f6dfd82a.png)
 
 
 
-Visualizations in Tableau
+Link to Dashboard
 
 https://public.tableau.com/app/profile/zach4381/viz/ColumbusAirBnBAnalysis/Story1?publish=yes
 
 ___________________________________________
 
-# Start of Second Week X Role
 
 A draft presentation in Google Slides was put together describing the following:
 * Selected topic

@@ -1,5 +1,0 @@
-There was confusion within our team about assignments this week. I thought we were switching to Deep Learning Model and was working on this without much luck. I was trying to determine which features to use for training but was not having much success but Michael came through by continuing with our Unsupervised Learning Model. I was working on preprocessing to compare features but this did not make sense for our project since we were not tyring to predict.
-We confirmed we made the right decision by reviewing the model together. We saw interesting relationships between increased home values and AirBnB listings. 
-Preliminary data processing including dropping several columns that did not contribute any data such as listing name, reviews, and owner information. Data was also merged from Census Report so we could compare home values from 2015 and 2020.
-The Pro's of Unsupervised Learning is there is no train and test data since we are not trying to predict a yes or no answer. By just reviewing clusters, patterns emerged. 
-More detail will be given once I have been able to fully work thru Michael's model.
