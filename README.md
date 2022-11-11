@@ -190,8 +190,10 @@ Zipcount holds the number of Airbnb listings in a given zipcode. The zipdensity 
 The 3D scatter plot above displays the data based on the median home value in 2015 for the zipcodes, the five year home value difference, the density of Airbnb listings in a zipcode. 
 The clusters which are differentiated by color, seem arrange the data into three clusters that essentially indicate lower, middle, and upper class housing. Except for the fourth cluster shown in blue. This cluster contains homes that would likely be clusted with the lower class housing although because they appreciated so aggressively between 2015 and 2020, often close to doubling in value if not more. It is also apparent that these zipcodes have a much higher concentration of airbnb listings than the average zipcode, especially when compared to homes with similar median value in 2015. 
 
+## Limitations
 
-=======
+After cleaning the data by removing columns, excluding outlying zipcodes likely skewed by there proximity to Ohio State's campus as well as the popularity of the school's football program, removing zero values from the median family income and owner occupied units columns and sclaing the data, the models only prefers to cluster via the median household values in 2015.
+
 ____________________________________________________________________________________________________________
 
 #Circle - Third Week
