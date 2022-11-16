@@ -214,3 +214,13 @@ A slide was added to discuss the types of technology and tools used for the proj
 
 A conclusion slide was also added to wrap up the presentation and provide potential next steps and further items to explore to supplement the analysis.
 
+_________________________________________________
+
+# Kelley - Fourth Week
+
+Three slides were added to the end of the presentation to facilitate wrapping up the slides.  The three slides added were:
+1.  Results of Analysis - shows whether the analysis answered our initial questions.  While there may not have been a strong overall trend showing the relationship between the number of AirBnBs and areas where housing values have significantly increased, there were definitely areas within the city where this pattern was observed.  More details of this conclusions will be shared in the machine learning and visualization sections.
+2. Recommendations for Future Analysis - describes steps that could be taken to enhance the analysis, including performing regression analysis to more clearly determine if there are relationships between housing data, such as increases in home values and changes in vacancy rates, and the number of AirBnBs.
+3. What Could Have Been Done Differently - outlines processes that may have made the process better from the start, such as bringing in historical AirBnB data to better identify trends such as if increases in AirBnB listings were consistent with changes in the underlying housing data.
+
+Formatting changes were also made to the slides so that they were more consistent in appearance.
