@@ -143,11 +143,12 @@ A draft database modeling diagram has been created to show the relationships bet
 
 ## Dashboard
 
-![Dashboard-2](https://user-images.githubusercontent.com/103155045/201246161-3752ecd8-9056-4a92-a36b-4701f6dfd82a.png)
+
+![Final Dashboard](https://user-images.githubusercontent.com/103155045/202329261-848af8b7-ffbc-41dd-a87d-198993b58066.png)
 
 
 
-Link to Dashboard
+Link to Dashboard and Visualizations
 
 https://public.tableau.com/app/profile/zach4381/viz/ColumbusAirBnBAnalysis/Story1?publish=yes
 
