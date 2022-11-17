@@ -215,3 +215,10 @@ A slide was added to discuss the types of technology and tools used for the proj
 
 A conclusion slide was also added to wrap up the presentation and provide potential next steps and further items to explore to supplement the analysis.
 
+# Final Machine Learning
+
+After scaling the data via MinMax scaler, a new 3D model was created.
+
+![Screen Shot 2022-11-17 at 3 39 47 PM](https://user-images.githubusercontent.com/108902185/202568259-699bd9d6-fc57-49c3-8222-c0a4f7dbf340.png)
+
+This model displays similar clustering with the previous models. With the most interesting results stemming from the orange dots in class 2. These zipcodes had gone from low value homes ~$100,000 in value in 2015 to oftentimes over double the value in 2020. We then went on to find that these zip codes are large percentage of the immediate surrounding area of Nationwide Children's Hospital. This hospital became affiliated with Nationwide in 2020, likely causing a migration of workers moving into the areas around the hospital. Which is where we have seen housing prices skyrocket from 2015 to 2020. Thus, the presence of Airbnbs in given area may be a byproduct of rapidly changing housing markets and possible gentrification of that area.
