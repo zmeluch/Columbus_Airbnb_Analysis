@@ -211,6 +211,7 @@ A slide was added to discuss the types of technology and tools used for the proj
 * Nominatim - used OpenStreetMap data to find locations on Earth through reverse geocoding (in this case, using coordinates to find zip codes).
 * Jupyter Notebook - housed the Python-based code.
 * PostgreSQL - housed the SQL queries to join the Inside AirBnB and census data.
+* Tableau - housed the data visualizations
 
 A conclusion slide was also added to wrap up the presentation and provide potential next steps and further items to explore to supplement the analysis.
 
