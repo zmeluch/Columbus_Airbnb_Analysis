@@ -214,3 +214,13 @@ A slide was added to discuss the types of technology and tools used for the proj
 
 A conclusion slide was also added to wrap up the presentation and provide potential next steps and further items to explore to supplement the analysis.
 
+_____________________________________________________________________________________________________________
+
+#Autumn -Fourth Week
+
+Updated Applications Used through Conclusion (10-14) slides.
+* Applications Used - adjusted speaker notes for my part of the presentation
+* Results of Analysis - adjusted speaker notes for my part of the presentation
+* Recommendations for Future Analysis - added Statistical Analysis portion listing Regression along with accessing data from Franklin County Auditor's Open Data    Portal, also adjust speaker notes for my part of the presentation
+* What Could We Have Changed - adjusted speaker notes and note for clarification
+* Added Questions slide
