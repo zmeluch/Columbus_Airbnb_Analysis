@@ -215,6 +215,18 @@ A slide was added to discuss the types of technology and tools used for the proj
 
 A conclusion slide was also added to wrap up the presentation and provide potential next steps and further items to explore to supplement the analysis.
 
+Michael---4th-week
+# Final Machine Learning
+
+After scaling the data via MinMax scaler, a new 3D model was created.
+
+![Screen Shot 2022-11-17 at 3 39 47 PM](https://user-images.githubusercontent.com/108902185/202568259-699bd9d6-fc57-49c3-8222-c0a4f7dbf340.png)
+
+This model displays similar clustering with the previous models. With the most interesting results stemming from the orange dots in class 2. These zipcodes had gone from low value homes ~$100,000 in value in 2015 to oftentimes over double the value in 2020. We then went on to find that these zip codes are large percentage of the immediate surrounding area of Nationwide Children's Hospital. This hospital became affiliated with Nationwide in 2020, likely causing a migration of workers moving into the areas around the hospital. Which is where we have seen housing prices skyrocket from 2015 to 2020. Thus, the presence of Airbnbs in given area may be a byproduct of rapidly changing housing markets and possible gentrification of that area.
+
+## Statistically Analysis Possibilites
+If we were to take a statistical approach to this dataset and the questions we have sought to answer, it is likely that a regression would be beneficial. This would allow us to differentiate the effect of each variable in our dataset on how many AirBnbs are in a given area. If additional analysis were to be needed a difference in differences analysis would likely show which areas are straying from the typical patterns which might lead us to more areas of possible gentrification.
+
 _________________________________________________
 
 # Kelley - Fourth Week
@@ -225,3 +237,4 @@ Three slides were added to the end of the presentation to facilitate wrapping up
 3. What Could Have Been Done Differently - outlines actions that may have made the process better, such as bringing in historical AirBnB data to improve the identification of trends, specifically, if increases in AirBnB listings were consistent with changes in the underlying housing data.
 
 Formatting changes were also made to the slides so that they were more consistent in appearance, such as font size and spacing.
+
