@@ -192,7 +192,6 @@ The 3D scatter plot above displays the data based on the median home value in 20
 The clusters which are differentiated by color, seem arrange the data into three clusters that essentially indicate lower, middle, and upper class housing. Except for the fourth cluster shown in blue. This cluster contains homes that would likely be clusted with the lower class housing although because they appreciated so aggressively between 2015 and 2020, often close to doubling in value if not more. It is also apparent that these zipcodes have a much higher concentration of airbnb listings than the average zipcode, especially when compared to homes with similar median value in 2015. 
 
 
-=======
 ____________________________________________________________________________________________________________
 
 #Circle - Third Week
@@ -212,4 +211,11 @@ A slide was added to discuss the types of technology and tools used for the proj
 * PostgreSQL - housed the SQL queries to join the Inside AirBnB and census data.
 
 A conclusion slide was also added to wrap up the presentation and provide potential next steps and further items to explore to supplement the analysis.
->>>>>>> main
+
+
+
+### Zach Final Week
+    - Added notes to Visualization slides
+    - Finalized Dashboard
+    - Polished visualizations
+    - Practiced Presentation
