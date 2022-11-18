@@ -215,6 +215,7 @@ A slide was added to discuss the types of technology and tools used for the proj
 
 A conclusion slide was also added to wrap up the presentation and provide potential next steps and further items to explore to supplement the analysis.
 
+Michael---4th-week
 # Final Machine Learning
 
 After scaling the data via MinMax scaler, a new 3D model was created.
@@ -225,3 +226,15 @@ This model displays similar clustering with the previous models. With the most i
 
 ## Statistically Analysis Possibilites
 If we were to take a statistical approach to this dataset and the questions we have sought to answer, it is likely that a regression would be beneficial. This would allow us to differentiate the effect of each variable in our dataset on how many AirBnbs are in a given area. If additional analysis were to be needed a difference in differences analysis would likely show which areas are straying from the typical patterns which might lead us to more areas of possible gentrification.
+
+_________________________________________________
+
+# Kelley - Fourth Week
+
+Three slides were added to the end of the presentation to facilitate wrapping up the slides.  The three slides added were:
+1.  Results of Analysis - shows whether the analysis answered our initial questions.  While there may not have been a strong overall trend showing the relationship between the number of AirBnBs and areas where housing values have significantly increased, there were definitely areas within the city where this pattern was observed.  More details of this conclusions will be shared in the machine learning and visualization sections.
+2. Recommendations for Future Analysis - describes steps that could be taken to enhance the analysis, including performing regression analysis to more clearly determine if there are relationships between housing data, such as increases in home values and changes in vacancy rates, and the number of AirBnBs.
+3. What Could Have Been Done Differently - outlines actions that may have made the process better, such as bringing in historical AirBnB data to improve the identification of trends, specifically, if increases in AirBnB listings were consistent with changes in the underlying housing data.
+
+Formatting changes were also made to the slides so that they were more consistent in appearance, such as font size and spacing.
+
