@@ -143,11 +143,12 @@ A draft database modeling diagram has been created to show the relationships bet
 
 ## Dashboard
 
-![Dashboard-2](https://user-images.githubusercontent.com/103155045/201246161-3752ecd8-9056-4a92-a36b-4701f6dfd82a.png)
+
+![Final Dashboard](https://user-images.githubusercontent.com/103155045/202329261-848af8b7-ffbc-41dd-a87d-198993b58066.png)
 
 
 
-Link to Dashboard
+Link to Dashboard and Visualizations
 
 https://public.tableau.com/app/profile/zach4381/viz/ColumbusAirBnBAnalysis/Story1?publish=yes
 
@@ -217,7 +218,14 @@ A conclusion slide was also added to wrap up the presentation and provide potent
 
 _____________________________________________________________________________________________________________
 
-#Autumn -Fourth Week
+### Zach Final Week
+    - Added notes to Visualization slides
+    - Finalized Dashboard
+    - Polished visualizations
+    - Practiced Presentation
+_____________________________________________________________________________________________________________
+
+### Autumn -Fourth Week
 
 Updated Applications Used through Conclusion (10-14) slides.
 * Applications Used - adjusted speaker notes for my part of the presentation
@@ -227,7 +235,7 @@ Updated Applications Used through Conclusion (10-14) slides.
 * Added Questions slide
 ____________________________________________________________________________________________________________
 
-Michael---4th-week
+### Michael---4th-week
 # Final Machine Learning
 
 After scaling the data via MinMax scaler, a new 3D model was created.
@@ -241,7 +249,7 @@ If we were to take a statistical approach to this dataset and the questions we h
 
 _________________________________________________
 
-# Kelley - Fourth Week
+### Kelley - Fourth Week
 
 Three slides were added to the end of the presentation to facilitate wrapping up the slides.  The three slides added were:
 1.  Results of Analysis - shows whether the analysis answered our initial questions.  While there may not have been a strong overall trend showing the relationship between the number of AirBnBs and areas where housing values have significantly increased, there were definitely areas within the city where this pattern was observed.  More details of this conclusions will be shared in the machine learning and visualization sections.
